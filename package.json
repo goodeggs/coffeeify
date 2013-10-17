@@ -1,44 +1,44 @@
 {
-    "name": "coffeeify",
-    "version": "0.5.1",
-    "description": "browserify v2 plugin for coffee-script with support for mixed .js and .coffee files",
-    "main": "index.js",
-    "dependencies": {
-        "coffee-script": "~1.6.2",
-        "through": "~2.2.0",
-        "convert-source-map": "~0.2.3"
+  "name": "coffeeify",
+  "version": "0.5.2-alpha",
+  "description": "browserify v2 plugin for coffee-script with support for mixed .js and .coffee files",
+  "main": "index.js",
+  "dependencies": {
+    "coffee-script": "~1.6.2",
+    "through": "~2.2.0",
+    "convert-source-map": "~0.2.3"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0",
+    "browserify": "2.x"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jnordberg/coffeeify.git"
+  },
+  "homepage": "https://github.com/jnordberg/coffeeify",
+  "keywords": [
+    "coffee-script",
+    "browserify",
+    "v2",
+    "js",
+    "plugin",
+    "transform"
+  ],
+  "contributors": [
+    {
+      "name": "James Halliday",
+      "email": "mail@substack.net",
+      "url": "http://substack.net"
     },
-    "devDependencies": {
-        "tap": "~0.4.0",
-        "browserify": "2.x"
-    },
-    "scripts": {
-        "test": "tap test/*.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jnordberg/coffeeify.git"
-    },
-    "homepage": "https://github.com/jnordberg/coffeeify",
-    "keywords": [
-        "coffee-script",
-        "browserify",
-        "v2",
-        "js",
-        "plugin",
-        "transform"
-    ],
-    "contributors": [
-        {
-            "name": "James Halliday",
-            "email": "mail@substack.net",
-            "url": "http://substack.net"
-        },
-        {
-            "name": "Johan Nordberg",
-            "email": "code@johan-nordberg.com",
-            "url": "http://johan-nordberg.com"
-        }
-    ],
-    "license": "MIT"
+    {
+      "name": "Johan Nordberg",
+      "email": "code@johan-nordberg.com",
+      "url": "http://johan-nordberg.com"
+    }
+  ],
+  "license": "MIT"
 }
